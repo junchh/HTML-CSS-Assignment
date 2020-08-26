@@ -153,6 +153,62 @@ header {
     width: 800px;
 }
 
+.contact {
+    height: 100vh;
+    background-color: #192a56;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content {
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 900px;
+}
+
+.contact-content h1 {
+    font-size: 3.5rem;
+    margin-bottom: 40px;
+}
+
+input, textarea {
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    font-size: 2rem;
+    padding: 15px;
+    border: 2px solid rgb(36, 36, 36);
+}
+
+textarea {
+    height: 300px;
+}
+
+
+input:focus {
+    outline: none;
+}
+
+.btn-send {
+    padding: 18px;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid rgb(36, 36, 36);
+}
+
+.btn-send:hover {
+    border: 3px solid #192a56;
+    background-color: #192a56;
+    color: #FFF;
+}
+
 
 
 
