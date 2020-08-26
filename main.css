@@ -72,7 +72,7 @@ header {
 
 /* Content */
 .container {
-    background-color: red;
+    background-color: #FFF;
 }
 
 .hero {
@@ -102,14 +102,14 @@ header {
 .hero-desc {
     font-size: 2rem;
     width: 600px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     line-height: 3rem;
 }
 
 .btn-about {
     cursor: pointer;
     width: 230px;
-    padding: 15px;
+    padding: 12px;
     font-size: 2rem;
     color: #FFF;
     background-color: transparent;
@@ -120,6 +120,37 @@ header {
 .btn-about:hover {
     background-color: #ced6e0;
     border: 3px solid #ced6e0;
+}
+
+.about {
+    height: 100vh;
+    padding: 100px;
+}
+
+.about-content {
+    background-color: #FFF;
+    padding: 60px;
+}
+
+.about-title {
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+}
+
+.profile {
+    width: 600px;
+    margin-bottom: 30px;
+}
+
+.about-name {
+    margin-bottom: 30px;
+    font-size: 2.5rem;
+}
+
+.about-desc {
+    font-size: 2rem;
+    line-height: 2.8rem;
+    width: 800px;
 }
 
 
